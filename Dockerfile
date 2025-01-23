@@ -12,5 +12,3 @@ WORKDIR /xpwn/builddir
 
 RUN cmake ..
 RUN make
-
-WORKDIR /
