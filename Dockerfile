@@ -10,5 +10,7 @@ RUN mkdir builddir
 
 WORKDIR /xpwn/builddir
 
-RUN cmake .. && make
+RUN cmake ..
+RUN make
 
+WORKDIR /
