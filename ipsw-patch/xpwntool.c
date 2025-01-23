@@ -6,6 +6,7 @@
 
 #define BUFFERSIZE (1024*1024)
 
+
 int main(int argc, char* argv[]) {
 	char* inData;
 	size_t inDataSize;
